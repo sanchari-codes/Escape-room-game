@@ -5,7 +5,7 @@ body{
 .room{
     width:100vw;
     height:100vh;
-    background-image: url("assets/images/bg9.webp");
+    background-image: url("assets/bg9.webp");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -70,7 +70,7 @@ body{
 .popup-paper{
     width:800px;
     height:600px;
-    background-image: url("assets/images/popup.webp");
+    background-image: url("assets/popup.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
