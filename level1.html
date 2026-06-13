@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Level 1</title>
+        <link rel="stylesheet" href="level1.css">
+    </head>
+    <body>
+        <div class="room">
+            
+            <div class="clickable clock"
+            onclick="showPopup('The old clock froze at quarter to seven.')"></div>
+            
+            <div class="clickable trophy"
+            onclick="showPopup('Edward Schwartz won the Grand Chess Tournament-First Place, XVIII Century, Year 25')"></div>
+            
+            <div class="clickable painting"
+            onclick="showPopup('A Peaceful Garden, painted in 1721')"></div>
+            
+            <div class="clickable newspaper"
+            onclick="showPopup('14 killed in a mysterious fire which shocked the town of Hasselburg immensely. 12 bodies identified by the forensic department. Families of the dead will be compensated for their loss. Report by Elena Potters, 25th January,1845')"></div>
+            
+            <div class="clickable map"
+            onclick="showPopup('The marked regions glow in red, blue, green and yellow. Numbers can be counted')"></div>
+            
+            <div class="clickable music"
+            onclick="showPopup('Certain notes are circled: C A B D')"></div>
+            
+            <div class="clickable manuscript"
+            onclick="showPopup('Time honors victory, Art remembers tragedy, Nations preserve wisdom, Music guards the final secret. Great numbers are often deceiving. Strip them down to their smallest truth.')"></div>
+
+            <div class="clickable chest"
+            onclick="openChest()"</div>
+        </div>
+
+        <div id="popup" class="popup">
+            <div class="popup-paper">
+                <span class="close-btn"
+                onclick="closePopup()">Close</span>
+                <p id="popup-text"></p>
+            </div>
+        </div>
+        <div id="helpBtn">?</div>
+        <div id="sidebar" class="sidebar hidden">
+            <span id="closeSidebar" style="font-size:medium;border: 2px solid white; cursor:pointer;padding:5px 10px;">Close</span>
+            <h2>How to play</h2>
+            <p>There are 6 clickabke clues present in the room.</p>
+            <p>Along with a manuscript to help you decipher the clues!</p>
+            <p>Find out the code to escape the room!</p>
+            <p>Happy solving!!</p>
+            <br/><br/>
+            <p>Hint:</p>
+            <button onclick="toggleHints()" style="background-color: blanchedalmond;cursor: pointer;">Click to spot the clues!</button>
+        </div>
+        <script src="level1.js"></script>
+    </body>
+</html>

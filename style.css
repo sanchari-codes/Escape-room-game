@@ -1,0 +1,55 @@
+body
+{
+margin:0;
+height:100vh;
+background-image:url("assets/images/bg4.webp");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display:flex;
+justify-content: center;
+align-items: center;
+font-family: Arial;
+}
+//Dark Overlay 
+.overlay
+{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.45);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title
+{
+    display: block;
+    width: 650px;
+    margin-bottom: 40px;
+}
+.level-btn
+{
+    background-color: darkred;
+    color: white;
+    border: 2px solid black;
+    padding: 15px 50px;
+    font-size: 28px;
+    border-radius: 12px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition:0.3s;
+}
+.level-btn:hover
+{
+    background-color: brown;
+    transform:scale(1.05);
+    box-shadow: 0 0 20px black;
+}
+a
+{
+display:flex;
+justify-content: center;
+text-decoration: none;
+width: 100%;
+}

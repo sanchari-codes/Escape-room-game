@@ -1,0 +1,153 @@
+body{
+    margin:0;
+    overflow:hidden;
+}
+.room{
+    width:100vw;
+    height:100vh;
+    background-image: url("assets/images/bg9.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.clickable{
+    position:absolute;
+    cursor:pointer;
+}
+.clock{
+    width:52px;
+    height:50px;
+    top:190px;
+    left:215px;
+}
+.trophy{
+    width:45px;
+    height:55px;
+    top:200px;
+    left:25px;
+}
+.painting{
+    width:65px;
+    height:85px;
+    top:190px;
+    left:775px;
+}
+.newspaper{
+    width:100px;
+    height:110px;
+    top:390px;
+    left:450px;
+}
+.map{
+    width:200px;
+    height:150px;
+    top:75px;
+    left:1220px;
+}
+.music{
+    width:100px;
+    height:80px;
+    top:334px;
+    left:960px;
+}
+.manuscript{
+    width:50px;
+    height:70px;
+    top:42px;
+    left:610px;
+}
+.popup{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+}
+.popup-paper{
+    width:800px;
+    height:600px;
+    background-image: url("assets/images/popup.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    box-sizing: border-box;
+}
+#popup-text{
+    width: 60%;
+    color:#3b2a1a;
+    font-size: 24px;
+    text-align: center;
+    font-family: Georgia;
+    line-height: 1.6;
+    padding: 20px;
+}
+.close-btn{
+    position: absolute;
+    top: 450px;
+    right: 350px;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    cursor:pointer;
+    z-index: 1000;
+    background-color:brown;
+    padding:8px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 5px;
+}
+.chest{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 340px;
+    left: 580px;
+}
+#helpBtn{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    background: yellow;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1000;
+}
+.sidebar{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: #111;
+    color:white;
+    padding: 20px;
+    z-index: 999;
+}
+.hint{
+    border:2px solid red;
+}
+#closeSidebar{
+    position:absolute;
+    top: 390px;
+    right:120px;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.hidden{
+    display: none;
+}
